@@ -1,4 +1,4 @@
-a=[1,1,2,2,3,3,3,4]
+a=[1,1,1,1,2,2,3,3,3,4]
 
 d={}
 for i in range(len(a)):
@@ -24,6 +24,12 @@ print()
     
 for x, y in d.items():
       print(x, y)
+h=max(d.keys(), key=(lambda k: d[k]))
+max_key = max(d, key=d.get)#get key with max value
+
+
+print(h)
+print(max_key)
     
     
 
