@@ -20,7 +20,7 @@ for i in range(len(a)):
     d.update({a[i]: c})
     
 
-print()
+print() 
     
 for x, y in d.items():
       print(x, y)
