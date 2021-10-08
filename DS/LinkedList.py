@@ -138,6 +138,23 @@ class LinledList:
                     break
                 print(currentNode.data)
                 currentNode=currentNode.next
+    
+    def add(self,newnode,key):
+        i=0
+        currentNode=self.head
+        
+        if currentNode is None:
+            print("Empty")
+        else:
+            while True:
+               
+                if i==key:
+                   prev.next=newnode
+                   newnode.next=currentNode.next
+                    
+                prev=currentNode   
+                currentNode=currentNode.next
+                i+=1
        
           
            
@@ -149,5 +166,6 @@ linkedList.insert_At_end(secondNode)
 tNode=Node("C")
 linkedList.insert_At_begin(tNode)
 linkedList.printList()
+linkedList.add("p",1)
 
             
