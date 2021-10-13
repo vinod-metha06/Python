@@ -30,6 +30,11 @@ max_key = max(d, key=d.get)#get key with max value
 
 print(h)
 print(max_key)
+try{
+    
+}except{
+    
+}
     
     
 
