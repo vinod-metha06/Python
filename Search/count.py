@@ -6,8 +6,8 @@ for i in range(len(a)):
     
 
 
-for x, y in d.items():
-      print(x, y)
+# for x, y in d.items():
+#       print(x, y)
 
  
 for i in range(len(a)):
@@ -20,21 +20,21 @@ for i in range(len(a)):
     d.update({a[i]: c})
     
 
-print() 
+# print() 
     
+# for x, y in d.items():
+#       print(x, y)
+# h=max(d.keys(), key=(lambda k: d[k]))
+# max_key = max(d, key=d.get)#get key with max value
+s=0
 for x, y in d.items():
-      print(x, y)
-h=max(d.keys(), key=(lambda k: d[k]))
-max_key = max(d, key=d.get)#get key with max value
+    if y>1:
+        s+=1
+print(s)
 
+# print(h)
+# print(max_key)
 
-print(h)
-print(max_key)
-try{
-    
-}except{
-    
-}
     
     
 
