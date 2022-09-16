@@ -1,0 +1,20 @@
+dict_items([('A', 0)])
+dict_items([('A', 'A')])
+l None A
+0 1
+n A A
+
+l None B
+1 1
+n B B
+l B C
+l B D
+
+l None C
+3 1
+n C C
+l C D
+l None D
+6 1
+n D D
+Path found: ['A', 'B'
